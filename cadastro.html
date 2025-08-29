@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum Lab - cadastro</title>
+    <link rel="stylesheet" href="styles/cadastro.css">
+    <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+    <heeader class="cabecalho">
+        <img class="logo" src="assets/img/icone-logo.svg" alt="">
+        <h1 class="titulo">Cadastro</h1>
+        <p class="subtitulo">Crie uma nova conta de usuario para a Aurum Lab</p>
+    </heeader>
+
+    <form class="form-login">
+        <label for="name">Nome completo</label>
+        <input type="nome" id="nome" placeholder="seu nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="email@email.com" required>
+
+        <label for="senha">Senha:</label>
+        <div class="campo-senha">
+          <input type="password" id="senha" placeholder="sua senha" required>
+
+          <label for="senha"> Confirmar senha:</label>
+          <div class="campo-senha">
+            <input type="password" id="senha" placeholder="confirme sua senha" required>
+            
+            <button type="submit" class="botao-login">ENTRAR</button>
+
+            <a href="" class="voltar">Voltar</a>
+    </form>
+    
+</body>
+</html>

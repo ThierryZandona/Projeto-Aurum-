@@ -1,0 +1,20 @@
+body {
+    background-color: var(--branco);
+    color: var(--branco);
+}
+
+.cabecalho {
+    background-color: var(--fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0 1px 0 var(--borda-suave);
+    border-radius: 20px;
+}
+
+.logo {
+  
+    width: 4%;
+}
